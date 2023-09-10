@@ -1,1 +1,2 @@
-test page
+Your code snippet effectively rotates the matrix 90 degrees clockwise in-place and is shorter. However, it doesn't modify the content matrix itself; it only prints the rotated values. If you want to modify the original matrix, you should assign the rotated values back to the content matrix within your rotate_matrix function.
+too nako mana ko hahaha wala pa diay
