@@ -22,11 +22,19 @@ namespace ARRAY_C_
             //You are given a square matrix(an N x N 2D array) representing an image.Rotate the image by 90 degrees(clockwise).
 
             //Write a function called rotate_matrix that takes an N x N matrix as input and modifies it in-place such that it is rotated 90 degrees clockwise.
-            int row = 3; int col = 3;   
+            int row ; int col; int loop;
+
+
+
+            Console.WriteLine("Enter Matrix size: ");
+            row = int.Parse(Console.ReadLine());
+            Console.WriteLine("X");
+            col = int.Parse(Console.ReadLine());
+            
 
             int[,] content = new int[row, col];
 
-
+            //Added this feature which will allow the user to input the values of the matrix 
             for(int i = 0; i < row; i++)
             {
 
@@ -36,6 +44,12 @@ namespace ARRAY_C_
                 { Console.Write("enter value for index ["+i+","+j+"]: ");
                     content[i, j] = int.Parse(Console.ReadLine());
                    
+
+                    loop = j;
+                    if(loop == col)
+                    {
+                        Console.WriteLine(" ");
+                    }
                
                 }
 
@@ -44,7 +58,8 @@ namespace ARRAY_C_
 
 
             }
-            int loop;
+
+            Console.WriteLine("Matrix: ");
 
             for (int r = 0; r < row; r++)
             {
@@ -55,7 +70,7 @@ namespace ARRAY_C_
                     Console.Write(content[r, c] + "\t");
 
                     loop = c;
-                    if (loop == 2)
+                    if (loop == col-1)
                     {
                         Console.WriteLine("");
                     }
@@ -66,51 +81,49 @@ namespace ARRAY_C_
 
             }
 
-            Console.WriteLine("");
-           
+            Console.WriteLine("Transpose:");
+
+
+
+            rotate_matrix();
 
 
 
 
-
-
-
-
-
-            for (int c = 0; c < col; c++)
-            {
-                for (int r = 2; r >= 0; r --)
-                {
-
-
-                  Console.Write(content[r, c] + "\t");
-
-                  loop = c;
-                  if (loop == 2)
-                  {
-                    Console.WriteLine("");
-                       
-                  }
-
-               
-                }
-
-
-
-
-            }
 
 
             Console.WriteLine("\n\n");
 
 
-               
 
 
-            void Matrix()
+
+            void rotate_matrix()
             {
 
                 
+                for (int c = 0; c < col; c++)
+                {
+                    for (int r = row-1; r >= 0; r--)
+                    {
+
+
+                        Console.Write(content[r, c] + "\t");
+
+                       loop = r;
+                        if (loop == 0)
+                        {
+                            Console.WriteLine("");
+                        }
+
+
+                    }
+
+
+
+
+                }
+
 
 
 
