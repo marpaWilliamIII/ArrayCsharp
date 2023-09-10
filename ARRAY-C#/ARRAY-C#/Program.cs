@@ -36,7 +36,7 @@ namespace ARRAY_C_
                 { Console.Write("enter value for index ["+i+","+j+"]: ");
                     content[i, j] = int.Parse(Console.ReadLine());
                    
-                    Console.Write("\r\t");
+               
                 }
 
 
@@ -44,7 +44,68 @@ namespace ARRAY_C_
 
 
             }
-         
+            int loop;
+
+            for (int r = 0; r < row; r++)
+            {
+
+
+                for (int c = 0; c < col; c++)
+                {
+                    Console.Write(content[r, c] + "\t");
+
+                    loop = c;
+                    if (loop == 2)
+                    {
+                        Console.WriteLine("");
+                    }
+
+
+                }
+
+
+            }
+
+            Console.WriteLine("");
+           
+
+
+
+
+
+
+
+
+
+            for (int c = 0; c < col; c++)
+            {
+                for (int r = 2; r >= 0; r --)
+                {
+
+
+                  Console.Write(content[r, c] + "\t");
+
+                  loop = c;
+                  if (loop == 2)
+                  {
+                    Console.WriteLine("");
+                       
+                  }
+
+               
+                }
+
+
+
+
+            }
+
+
+            Console.WriteLine("\n\n");
+
+
+               
+
 
             void Matrix()
             {
