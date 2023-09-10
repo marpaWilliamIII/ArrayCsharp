@@ -1,0 +1,8 @@
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\bin\Debug\ARRAY-C#.exe.config
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\bin\Debug\ARRAY-C#.exe
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\bin\Debug\ARRAY-C#.pdb
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\obj\Debug\ARRAY-C#.csproj.AssemblyReference.cache
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\obj\Debug\ARRAY-C#.csproj.SuggestedBindingRedirects.cache
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\obj\Debug\ARRAY-C#.csproj.CoreCompileInputs.cache
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\obj\Debug\ARRAY-C#.exe
+C:\Users\william iii marpa\Desktop\ArrayCsharp\ARRAY-C#\ARRAY-C#\obj\Debug\ARRAY-C#.pdb
